@@ -31,6 +31,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: ${{secrets.HEROKU_APP_NAME}}
           heroku_email: "taqiudin.ahyari@gmail.com"
+
       # add postgresql and run migrations
       # uncomment the following line if you want to add postgresql and run migrations for first time
 
