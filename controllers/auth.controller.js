@@ -136,7 +136,7 @@ module.exports = {
         email,
         "Reset Password",
         `Hi ${user.email}, you can reset your password by clicking on the link below.\n`,
-        `<a href='http://localhost:3000/new-password/?token=${token}'>Reset Password</a>`
+        `<a href='${process.env.HEROKU_URL}/new-password/?token=${token}'>Reset Password</a>`
       );
       return res.status(200).json({
         message: "Password reset link has been sent to your email",
