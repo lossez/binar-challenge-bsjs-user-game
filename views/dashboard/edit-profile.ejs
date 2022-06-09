@@ -30,7 +30,7 @@
     
                     <div class="col-auto my-auto">
                         <label for="formFileImage" class="form-label">Profile Picture</label>
-                        <input class="form-control" type="file" id="formFileImage" name="profile_picture" value="<%= result.user_game_biodata?.profile_picture %>">
+                        <input class="form-control" type="file" id="formFileImage" name="profile_picture" value="<%= result.user_game_biodata?.profile_picture %>" accept="image/*">
                     </div>
                 </div>
                 <div class="mt-4">
@@ -57,7 +57,7 @@
                   </div>
                   <div class="col-auto my-auto">
                         <label for="formFileVideo" class="form-label">Profile Video</label>
-                        <input class="form-control" type="file" id="formFileVideo" name="profile_video" value="<%= result.user_game_biodata?.profile_video %>">
+                        <input class="form-control" type="file" id="formFileVideo" name="profile_video" value="<%= result.user_game_biodata?.profile_video %>" accept="video/*">
                     </div>
                 </div>
                 <div class="row">
